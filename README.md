@@ -1,6 +1,6 @@
 # Twitter Troll Dectection with N-gram, Decision Tree & Random Forest
 
-A "project" which involves identifying Radical Left and Radical Right troll posts on Twitter using Decision Tree and Random Forest classifiers and 4-fold cross validation. Both Jupyter Notebook and HTML versions are included for the reader to inspect whichever suits his/her convenience.
+A "project" which involves identifying Radical Left and Radical Right troll posts on Twitter using Decision Tree and Random Forest classifiers and 4-fold cross validation.
 
 ### Elements
 
