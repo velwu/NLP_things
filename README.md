@@ -1,6 +1,6 @@
 # Twitter Troll Dectection with N-gram, Decision Tree & Random Forest
 
-A "project" which involves identifying Radical Left and Radical Right troll posts on Twitter using Decision Tree and Random Forest classifiers and 4-fold cross validation.
+A project which involves identifying Radical Left and Radical Right troll posts on Twitter using Decision Tree and Random Forest classifiers and 4-fold cross validation.
 
 ### Elements
 
@@ -17,7 +17,7 @@ These elements are involved in this project:
 The dataset used here is the [Russian Troll Tweets](https://www.kaggle.com/datasets/fivethirtyeight/russian-troll-tweets) data on Kaggle.
 
 The dataset looks like this at a glance:
-![IMG_DATA](https://github.com/velwu/NLP_things/blob/main/Dataset_Snapshot.PNG)
+![IMG_DATA](./Dataset_Snapshot.PNG)
 
 ---
 
@@ -26,10 +26,10 @@ The dataset looks like this at a glance:
 Back when i first did this project (year 2020), the most noticeable improvement observed was simply the increase of words-to-keep. When a set of about 50 features was increased ten-fold. Quite in the literal sense.
 
 The process sees improvement from a original model built around minimalistic features (about 50 words to keep):
-![IMG_PRIMITIVE_MDL](https://github.com/velwu/NLP_things/blob/main/Mdl_Perf_Before.PNG)
+![IMG_PRIMITIVE_MDL](./Mdl_Perf_Before.PNG)
 
 ~~ to a better iteration using Decision Tree over 500 features of N-grams:
-![IMG_BETTER_MDL](https://github.com/velwu/NLP_things/blob/main/Mdl_Perf_After.PNG)
+![IMG_BETTER_MDL](./Mdl_Perf_After.PNG)
 
 However, this was the furthermost i was able to get. The additional points to consider are listed below. Hence i am rebooting this project to do what i envisioned to do.
 
